@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wiskunde VMBO</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.10.0/brython.min.js"></script>
+    <style>
+        body { font-family: Arial; max-width: 800px; margin: 0 auto; }
+        .onderwerp { 
+            background: #4CAF50; 
+            color: white; 
+            padding: 15px; 
+            margin: 10px; 
+            border-radius: 5px; 
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body onload="brython()">
+    <h1>Wiskunde Oefenen</h1>
+    <div class="onderwerp" onclick="location.href='rekenen.html'">1. Rekenen, meten en schatten</div>
+    <div class="onderwerp" onclick="location.href='meetkunde.html'">2. Vlakke meetkunde</div>
+    <div class="onderwerp" onclick="location.href='verbanden.html'">3. Verbanden</div>
+    <div class="onderwerp" onclick="location.href='ruimtemeetkunde.html'">4. Ruimtemeetkunde</div>
+    <div class="onderwerp" onclick="location.href='statistiek.html'">5. Statistiek</div>
+</body>
+</html>
