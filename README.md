@@ -1,19 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Wiskunde VMBO</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.10.0/brython.min.js"></script>
-    <style>
-        body { font-family: Arial; max-width: 800px; margin: 0 auto; }
-        .onderwerp { 
-            background: #4CAF50; 
-            color: white; 
-            padding: 15px; 
-            margin: 10px; 
-            border-radius: 5px; 
-            cursor: pointer;
-        }
-    </style>
 </head>
 <body onload="brython()">
     <h1>Wiskunde Oefenen</h1>
